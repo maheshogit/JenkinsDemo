@@ -10,7 +10,7 @@ public class RestController {
         return "Hellow Jenknins";
     }
 
-    @GetMapping("/jenk")
+    @GetMapping("/jenkins")
     public String getHelo(){
         return "Upadted Hellow Jenknins";
     }
