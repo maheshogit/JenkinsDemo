@@ -9,4 +9,11 @@ public class RestController {
     public String getDemo(){
         return "Hellow Jenknins";
     }
+
+    @GetMapping("/jenk")
+    public String getHelo(){
+        return "Upadted Hellow Jenknins";
+    }
+
+
 }
